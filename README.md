@@ -14,8 +14,7 @@ This script allows handling the [DanSpeech recordings](https://github.com/Rasmus
 ``` 
 
 ### Arguments
-```shell script
-> python3.7 main.py --help                                                                                                      
+```text
 usage: main.py [-h] [-p PATH] [-g GENDER] [-a AGE] [-t TEST_SIZE]
 
 Preprocessor arguments.
