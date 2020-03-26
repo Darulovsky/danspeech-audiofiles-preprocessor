@@ -1,5 +1,5 @@
 # Introduction
-This script allows handling the [DanSpeech recordings](https://github.com/Rasmusafj/danspeech_webap) in more efficiently. It consists of three steps:
+This script allows handling the [DanSpeech recordings](https://github.com/Rasmusafj/danspeech_webap) more efficiently. It consists of three steps:
 1. Get all .webm files and convert them to .wav files,
 1. Retrieve file names and transcripts from db.json Django database dump file,
 1. Split all the files into the training set and validation set.
