@@ -9,7 +9,6 @@ from pathlib import Path
 class Preprocessor:
     def __init__(self, local_path):
         self.path = local_path
-        self.sets = {}
 
     def convert_files(self):
         command = 'for file in "{}"/*.webm; do ffmpeg -y -i "$file" -acodec pcm_s16le -ac 1 -ar 16000 -f wav "$file.wav"; done'.format(self.path)
